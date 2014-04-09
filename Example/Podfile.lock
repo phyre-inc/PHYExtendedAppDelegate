@@ -1,0 +1,14 @@
+PODS:
+  - PHYExtendedAppDelegate (0.1.0)
+
+DEPENDENCIES:
+  - PHYExtendedAppDelegate (from `../`)
+
+EXTERNAL SOURCES:
+  PHYExtendedAppDelegate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PHYExtendedAppDelegate: 75103fd7c47193c771be7e16e98618ba39913772
+
+COCOAPODS: 0.31.1

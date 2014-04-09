@@ -1,7 +1,6 @@
-pod "PHYExtendedAppDelegate", :path => "../"
-
-target "Demo" do
+target "PHYExtendedAppDelegate" do
+    pod "PHYExtendedAppDelegate", :path => "../"
 end
 
-target "DemoTests" do
+target "PHYExtendedAppDelegateTests" do
 end
