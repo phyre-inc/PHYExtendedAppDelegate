@@ -9,7 +9,7 @@ it simply add the following line to your Podfile:
 
     pod "PHYExtendedAppDelegate"
 
-##Documentation
+## Documentation
 
 [Documentation](http://cocoadocs.org/docsets/PHYExtendedAppDelegate/0.1.1/) provided via [CocoaDocs](http://cocoadocs.org).
 
@@ -20,4 +20,3 @@ Matt Ricketson, matt@phyreup.com
 ## License
 
 PHYExtendedAppDelegate is available under the MIT license. See the LICENSE file for more info.
-
