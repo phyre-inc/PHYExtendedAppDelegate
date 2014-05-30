@@ -1,13 +1,6 @@
 # PHYExtendedAppDelegate
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/PHYExtendedAppDelegate/badge.png)](http://cocoadocs.org/docsets/PHYExtendedAppDelegate)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/PHYExtendedAppDelegate/badge.png)](http://cocoadocs.org/docsets/PHYExtendedAppDelegate)
-
-## Usage
-
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+An iOS UIApplication delegate superclass that provides some convenient utilities.
 
 ## Installation
 
@@ -16,9 +9,13 @@ it simply add the following line to your Podfile:
 
     pod "PHYExtendedAppDelegate"
 
+##Documentation
+
+[Documentation](http://cocoadocs.org/docsets/PHYExtendedAppDelegate/0.1.1/) provided via [CocoaDocs](http://cocoadocs.org).
+
 ## Author
 
-Matt Ricketson, mricketson@mac.com
+Matt Ricketson, matt@phyreup.com
 
 ## License
 
