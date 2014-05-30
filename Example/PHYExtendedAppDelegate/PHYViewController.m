@@ -7,23 +7,22 @@
 //
 
 #import "PHYViewController.h"
-
-@interface PHYViewController ()
-
-@end
+#import "PHYAppDelegate.h"
 
 @implementation PHYViewController
 
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewDidAppear:animated];
+    
+    /// Attempt to register for push notifications
+    UIRemoteNotificationType types = UIRemoteNotificationTypeAlert|UIRemoteNotificationTypeBadge;
+    
+    [[PHYAppDelegate sharedDelegate] registerForRemoteNotificationTypes:types success:^(NSData *deviceToken) {
+        NSLog(@"Successfully registered for push notifications with deviceToken %@", deviceToken);
+    } failure:^(NSError *error) {
+        NSLog(@"Failed to register for push notifications. Error: %@", error);
+    }];
 }
 
 @end
