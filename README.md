@@ -9,6 +9,10 @@ it simply add the following line to your Podfile:
 
     pod "PHYExtendedAppDelegate"
 
+## Usage
+
+To run the example project; clone the repo, and run `pod install` from the Example directory first.
+
 ## Documentation
 
 [Documentation](http://cocoadocs.org/docsets/PHYExtendedAppDelegate/0.1.1/) provided via [CocoaDocs](http://cocoadocs.org).
